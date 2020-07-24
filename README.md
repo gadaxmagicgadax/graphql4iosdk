@@ -96,5 +96,5 @@ You can now just test the django server:
 
 Point your browser to : http://localhost:8000
 
-<img src="/images/django1-first-run.png" height="400" width="600">
+<img src="/graphql4iosdk/images/django1-first-run.png" height="400" width="600">
 
