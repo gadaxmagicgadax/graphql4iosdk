@@ -65,7 +65,7 @@ Have a look to the content of the created folder
 $ tree
 ```
 
-```
+``` console
 .
 |-- graphql4iosdk
 |   |-- README.md
