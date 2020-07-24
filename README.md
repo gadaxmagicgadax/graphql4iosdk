@@ -96,6 +96,5 @@ You can now just test the django server:
 
 Point your browser to : http://localhost:8000
 
-
-![Django first run](./images/django1-first run.png)
+<img src="/images/django1-first-run.png" height="400" width="600">
 
