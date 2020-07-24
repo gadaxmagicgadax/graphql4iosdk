@@ -97,5 +97,5 @@ You can now just test the django server:
 Point your browser to : http://localhost:8000
 
 ```
-![An old rock in the desert](/assets/images/django1-first run.png)
+![An old rock in the desert](./images/django1-first run.png)
 ```
