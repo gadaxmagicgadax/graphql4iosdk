@@ -38,6 +38,7 @@ $ python -m pip install graphene-django
 
 ```
 $ conda install -n graphql -c conda-forge graphene-django
+```
 
 or , if you have anaconda :
 
