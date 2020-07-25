@@ -94,7 +94,7 @@ You can now just test the django server:
 
 Point your browser to : http://localhost:8000
 
-<img src="/blob/master/graphql4iosdk/images/django1-first-run.png" height="400" width="600">
+<img src="./graphql4iosdk/images/django1-first-run.png" height="400" width="600">
 
 ## Configuration of database in Django
 
@@ -371,10 +371,10 @@ Point the browser to :
 
 http://localhost:8000/graphql/
 
-<img src="/blob/master/graphql4iosdk/images/graphqltool.png" height="400" width="600">
+<img src="./graphql4iosdk/images/graphqltool.png" height="400" width="600">
 
 let'insert the query and run :
 
-<img src="/blob/master/graphql4iosdk/images/graphql-query.png" height="400" width="600">
+<img src="./graphql4iosdk/images/graphql-query.png" height="400" width="600">
 
 It's kinda weird fields name are converted without "underscores". So "fiscal_code" becomes "fiscalCode". Because we need the original name of the field, we add it in the query in the form "field name requested" : "fieldname in graphql".
