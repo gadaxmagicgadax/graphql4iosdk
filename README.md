@@ -94,7 +94,7 @@ You can now just test the django server:
 
 Point your browser to : http://localhost:8000
 
-![Graphql](https://github.com/gadaxmagicgadax/graphql4iosdk/blob/master/image/django1-first-run.png?raw=true)
+![Graphql](https://github.com/gadaxmagicgadax/graphql4iosdk/blob/master/images/django1-first-run.png?raw=true)
 
 ## Configuration of database in Django
 
