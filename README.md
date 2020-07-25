@@ -371,10 +371,11 @@ Point the browser to :
 
 http://localhost:8000/graphql/
 
-<img src="./graphql4iosdk/images/graphqltool.png" height="400" width="600">
+![Graphql](https://github.com/gadaxmagicgadax/graphql4iosdk/blob/master/images/graphqltool.png?raw=true)
 
 let'insert the query and run :
 
-<img src="./graphql4iosdk/images/graphql-query.png" height="400" width="600">
+![Graphql](https://github.com/gadaxmagicgadax/graphql4iosdk/blob/master/images/graphql-query.png?raw=true)
+
 
 It's kinda weird fields name are converted without "underscores". So "fiscal_code" becomes "fiscalCode". Because we need the original name of the field, we add it in the query in the form "field name requested" : "fieldname in graphql".
