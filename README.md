@@ -5,7 +5,7 @@ association, I've started a project to develop an importer for iosdk based on gr
 
 I'll try to pass to you all the information I collected to get up and running in developing a project based on django and graphene (a library for building GraphQL APIs in Python).
 
-iosdk is the component for sending messaging to italian citisens using the mobile app "IO". The idea is to prepare an importer, based on graphql, reading suitable data from a view in the mysql database useful to prepare the messages to be sent to the citizens. Graphql queries are then available on the django server to be called as rest API's from the importer.
+iosdk is the component for sending messaging to italian citizens using the mobile app "IO". The idea is to prepare an importer, querying a graphql server, reading suitable data from a view in the mysql database useful to prepare the messages to be sent to the citizens. Graphql queries are then available on the django server to be called as rest API's from the importer.
 
 First of all I suggest to create a python environment just for the purposes of this project. In my case, I use anaconda so I just created a new environment called "graphql" and activated with :
 
@@ -180,7 +180,7 @@ save the settings.py file
 
 NOTE: To get near a real situation, I prepared a database using the HR sample data provided by mysql here: [HR data](https://dev.mysql.com/doc/employee/en/)
 
-I just added a field to the employee table (fiscal_code) and populated it with kind random data.
+I just added a field to the employee table (fiscal_code) and populated it with random data.
 
 I created an additional schema in MySql database where I created a view (called messages) getting data from the employees table and returnig results with the necessary fields to compose messages for iosdk.
 
@@ -388,3 +388,9 @@ Few modification are necessary to let iosdk importer to to pull data from this g
 First of all you will have to use the query I used in this example.
 
 Modifications are necessary in settings.py file. You must update the ALLOWED_HOSTS adding the server name where iosdk is running otherwise graphql server will deny access.
+
+Moreover, when you start the django server you must add parameters to state the IP and port where the server will run like :
+
+```
+$ python manage.py runserver 192.168.1.124 8000
+```
