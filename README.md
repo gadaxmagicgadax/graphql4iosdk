@@ -1,7 +1,9 @@
 # How to implement graphql with django and graphene
 
 Participating in  [Noiopen](https://noiopen.discourse.group/)
-association, I've started a project to develop an importer for iosdk based on graphql queries. In this repository you can find all the code to run graphql in a django server connecting to a mysql database. The importer for sdk will be deployed in a different repository. However, I'll try to pass to you all the information I collected to get up and running in developing a project based on django and graphene.
+association, I've started a project to develop an importer for iosdk based on graphql queries. In this repository you can find all the code to run graphql in a django server connecting to a mysql database. The importer for sdk has been deployed in a different repository [io-sdk-python-graphql](https://github.com/gadaxmagicgadax/io-sdk-python-graphql).
+
+I'll try to pass to you all the information I collected to get up and running in developing a project based on django and graphene.
 
 iosdk is the component for sending messaging to italian citisens using the mobile app "IO". The idea is to prepare an importer, based on graphql, reading suitable data from a view in the mysql database useful to prepare the messages to be sent to the citizens. Graphql queries are then available on the django server to be called as rest API's from the importer.
 
